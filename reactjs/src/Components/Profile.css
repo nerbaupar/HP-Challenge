@@ -1,0 +1,46 @@
+/* Estilos para el perfil de usuario */
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profile-info img {
+    border-radius: 50%;
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.profile-info .name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+}
+
+.profile-info .user-data li {
+    padding: 20px 0px 0px 20px;
+    text-align: left;
+}
+
+.profile-info .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.profile-info .navbar li {
+    display: inline-block;
+    padding: 0px 15px 20px 15px;
+    font-weight: 700;
+}
+
+.profile-info .navbar li a[href="#"] {
+    color: #0b9afe;
+}

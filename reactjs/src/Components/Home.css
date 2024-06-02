@@ -1,0 +1,60 @@
+/* Estilos para el contenedor de imágenes */
+.image-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.image-pic img {
+    border-radius: 50%;
+    width: 65%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de entrada de texto en el formulario de inicio de sesión */
+.login .input-box {
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.login input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.sign-in button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: #0b9afe;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el enlace "Forgot Password" */
+.forgot-password {
+    font-size: 10px;
+    float: left;
+    color: grey;
+}
+
+/* Estilos para el botón "Sign Up" */
+.sign-up button {
+    font-size: 10px;
+    float: right;
+    color: #0c9afe;
+    background: none;
+    border: none;
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}

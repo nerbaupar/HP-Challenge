@@ -1,0 +1,31 @@
+/* Estilos para la página de peticiones de amistad */
+.friends {
+    display: flex;
+    flex-direction: column;
+}
+
+.friends img {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.friends .name {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.friends li {
+    display: inline-block;
+    padding: 20px 15px 20px 15px;
+    font-weight: 700;
+}
